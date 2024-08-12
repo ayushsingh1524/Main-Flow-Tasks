@@ -1,1 +1,0 @@
-# This is README file for the login page
