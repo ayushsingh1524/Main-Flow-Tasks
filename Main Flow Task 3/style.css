@@ -1,0 +1,92 @@
+html{
+    height: 100%;
+    background-image: url("includes/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px red solid;  */
+}
+body{
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+}
+
+.big-div{
+    height: 100%;
+    /* border: 2px red solid;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-div h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-style: oblique;
+    padding-bottom:0.5rem;
+    border-bottom: 2px solid rgb(0, 132, 255);
+    margin-bottom: 1rem;
+    color: rgb(253, 253, 253);
+}
+.big-div h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-style: oblique;
+    padding-bottom:0.5rem;
+    
+    margin-bottom: 1rem;
+    color: rgb(253, 253, 253);
+}
+
+.row{
+    width: 100%;
+    /* border: 2px rgb(0, 255, 21) solid; */
+    
+}
+/* If I wanna make it look prettier when x-large screens*/
+@media screen and (min-width: 700px){
+    .form-style{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        border: 2px rgb(255, 255, 255) solid; 
+        padding: 1rem;
+    }
+    .form-style input{
+        width: 70%;
+        margin-bottom: 0.7rem;
+        height: 2rem;
+        border-radius: 0.4rem;
+    }
+    .form-style button{
+        width: 70%; 
+        margin-top: 0.7rem;
+    }
+}
+
+.form-style{
+    
+    display: flex;
+    flex-direction: column;
+    border: 2px rgba(255, 255, 255, 0.924) solid; 
+    padding: 1rem;
+}
+.form-style input{
+    
+    margin-bottom: 0.7rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+}
+.form-style label{
+    color: white;
+}
+.form-style button{
+    
+    margin-top: 0.7rem;
+}
+.col-md-6{
+    display: flex;
+    justify-content: center;
+    /* border: green 2px solid; */
+}
